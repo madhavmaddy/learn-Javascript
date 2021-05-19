@@ -94,7 +94,7 @@ const perDetails = {
 
 const button = 'firstName'
 
-console.log(perDetails[button])
+// console.log(perDetails[button])
 
 //dot operator is to fetch the value from an objects
 //square bracket is used to fetch the after user enter (this is dynamic value will change according to the user need)
@@ -115,3 +115,59 @@ undefined
 value13
 
 // and operator denotes as &&
+//less than or greater than operator
+
+let number = 2
+let number1 = 3
+/* console.log(number > 1)
+console.log(number > 2)
+console.log(number >= 2)
+console.log(number < 2)
+console.log(number <= 2) */
+
+//increment and decrement operators
+
+// console.log(number++) //2 next value increment but it will not display
+// console.log(number) // value will be displayed with incremented
+//this will increment the value first then it will print
+// console.log(++number)
+//decrement value
+// console.log(number--)
+// console.log(number)
+// number = number - 1
+
+// console.log(--number)
+
+// number = number + 2
+
+//shorthand form
+// number = number + 3
+// number += 3
+// console.log(number)
+
+//this will force to check both value should be same
+// console.log(true === false)
+
+//not equaito synbol
+//type + value
+// console.log(true !== false)
+console.log('3' === 3)
+console.log('3' == 3)
+
+// if (number >= number1) {
+//     console.log('Heloooooo')
+// } else {
+//     console.log('statement is false')
+// }
+
+// if (number >= number1) {
+//     console.log('Heloooooo')
+// } else if(true){
+//     console.log('statement is false')
+// } else if(true) {
+
+// }else if(true) {
+
+// }
+
+// if (number >= number1) console.log('madhav')
