@@ -29,3 +29,4 @@ ex: git checkout level1
 #to delete a branch using the following command
 
 git branch -d branchName
+added
