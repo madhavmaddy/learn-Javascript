@@ -151,8 +151,8 @@ console.log(number <= 2) */
 //not equaito synbol
 //type + value
 // console.log(true !== false)
-console.log('3' === 3)
-console.log('3' == 3)
+// console.log('3' === 3)
+// console.log('3' == 3)
 
 // if (number >= number1) {
 //     console.log('Heloooooo')
@@ -171,3 +171,93 @@ console.log('3' == 3)
 // }
 
 // if (number >= number1) console.log('madhav')
+
+// const finishSomeDocumentationWork = true
+// const workOnSomeCustomerIssues = true
+
+// function weekend(documentation, customerIssue) {
+//     if (finishSomeDocumentationWork !== documentation) {
+//         console.log('Write the documentation you have demo on monday')
+//     } else if (workOnSomeCustomerIssues !== customerIssue) {
+//         console.log('!Uhh Done? Something is wrong in your code then')
+//     } else {
+//         console.log('clean your office table then rest')
+//     }
+// }
+// weekend(true, false)
+
+/* console.log('Before')
+
+getuser(1, function (user) {
+    console.log(user)
+})
+console.log('After')
+
+async function getuser(id, callback) {
+    setTimeout(() => {
+        console.log('Reading data from database')
+        callback({ id: id })
+    }, 2000)
+} */
+
+//Promises
+/* function delay() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            // resolve('Hello')
+            reject(new Error('Error message here'))
+        }, 2000)
+    })
+}
+
+delay()
+    .then((result) => console.log(result))
+    .catch((result) => console.log(result)) */
+
+//for loop
+
+/* let namesforteam = ['Phavya', 'Paras', 'prabhu', 'Madhav', 'Hari', 'Rajesh']
+
+for (let i = 1; i < 20; i++) {
+    for (let j = 1; j < 5; j++) {
+        console.log(`value j is ${j}`)
+    }
+    console.log(`value i is ${i}`)
+}
+ */
+
+/* const names = 'Phavya'
+const hello = 'Madhav'
+
+if (names === hello) {
+    console.log('Hello')
+} else if (false) {
+    console.log('Hiii')
+} else {
+    console.log('last statement')
+}
+
+if (names === hello) console.log('Hello')
+console.log('this is false statement') */
+
+/* let weekName = 'Friday'
+
+switch (weekName) {
+    case 'Monday':
+        console.log('This is monday')
+        break
+
+    case 'Tuesday':
+        console.log('This is tuesday')
+        break
+    case 'Wednesday':
+        console.log('This is Wednesday')
+        break
+    case 'Thursday':
+        console.log('This is Thursday')
+        break
+
+    default:
+        console.log('Week name not found')
+        break
+} */
